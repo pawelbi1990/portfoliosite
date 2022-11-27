@@ -1,0 +1,448 @@
+.sidemenu{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidemenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidemenu a:hover {
+  color: #f1f1f1;
+}
+
+.sidemenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+.leftbuttons{
+  float:left;
+  width: 30%;
+  display:inline-table;
+  height:70px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.middlebuttons{
+  width:40%;
+  display:inline-table;
+  text-align: center;
+  height:70px;
+  line-height: 70px;
+}
+
+.rightbuttons{
+  float: right;
+  width:30%;
+  display:inline-table;
+  height:70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.mainpart{
+  border: 4px solid #e3d4d3;
+  border-radius: 10px;
+  height:100%;
+  background-image: linear-gradient(white, white);
+  margin:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo{
+  border: 1px solid gray;
+  min-height: 960px;
+  background-image: url("pawel.jpg");
+  background-size: cover;
+  width: auto;
+  margin: 5px;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.centerx{
+  margin: auto;
+}
+
+.centerxy{
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+button{
+  border: none;
+  background: none;
+  margin: 3%;
+  height: 20px;
+}
+
+#namebutton{
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #a11b12;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+.nav{
+  height: 80px;
+}
+
+.btnunderline:hover{
+  border-bottom: 1px solid black;
+  cursor:pointer;
+}
+
+.btnsetfont{
+  font-family: 'Comfortaa', cursive;
+
+}
+
+@keyframes fadein{
+  from { opacity: 0; }
+  to {opacity: 1; }
+
+}
+
+html{
+  animation: fadein 2s;
+}
+ .currentpage{
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.text{
+  width:inherit;
+  height:inherit;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+
+}
+ .techbuttons{
+   width: 100%;
+   height: auto;
+ }
+
+#htmlicon, #cssicon, #jsicon, #pythonicon{
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 42px -14px rgba(255, 255, 255, 1);
+-moz-box-shadow: 0px 0px 42px -14px rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 42px -14px rgba(255, 255, 255, 1);
+border: none;
+}
+
+#jsicon{
+  border-radius: 100%;
+}
+
+#htmlicon{
+  background-color: #e44d26;
+}
+
+#cssicon{
+  background-color: #379ad6;
+}
+
+body{
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+  font-size: 1,5em;
+}
+
+table{
+  height: 60%;
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+}
+
+.innerbody{
+  /* border: 5px solid lightblue;
+  border-radius: 1%; */
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.nav{
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-top: 3%;
+  font-size: 2em;
+  font-family: 'Plus Jakarta Sans', sans-serif;  text-align: center;
+  background-color: rgba(0,0,0,0);
+  color: black;
+}
+
+.btn{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  border: none;
+  background: none;
+  display: inline;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.btn1{
+  float: left;
+}
+
+.btn2{
+  float: right;
+}
+
+.btn3{
+
+}
+
+.welcome{
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 60px;
+  margin-bottom: 30%;
+}
+
+.welcome1{
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 30px;
+}
+
+.enter{
+  background: transparent url(http://dev.vaadin.com/chrome/site/vaadin-trac.png) no-repeat;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: RGB(0,0,0);
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0,5s;
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background .5s ease-out;
+  margin-bottom: 30px;
+  border: none;
+  background-color: red;
+  opacity: 0.5;
+}
+
+/*enter animations:*/
+ /* .enter span {
+  cursor: pointer;
+  display:inline-flex;
+  position:relative;
+  transition: 0.5s;
+} */
+
+/* .enter span:after {
+  content: '>ENTER<';
+  position:absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+} */
+
+/* .enter:hover span {
+  padding-right: 25px;
+} */
+
+/*
+.enter:hover #enterspan::after {
+  opacity: 1;
+  right: 0;
+
+
+
+} */
+
+/* .enter:hover::after{
+  transition: 0,5s;
+  content: ' \00BB';
+
+}
+
+.enter:hover{
+  background-color: #2e7336;
+  transition: 0.5s;
+
+} */
+
+/*end of animations*/
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center3 {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center4 {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 47.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#myname{
+  text-align: center;
+  display: inline;
+}
+
+.mainpart{
+
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  padding-left: 0px;
+  margin: auto;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Plus Jakarta Sans', sans-serif;  color: black;
+  background-image: url("pawel.jpg");
+  /* background-color: green; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 0px solid lightblue;
+  border-radius: 1%;
+  width: 960px;
+  height: 720px;
+  /* left: 25%; */
+  /* -ms-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.bottompart{
+  /* width: auto; */
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  border: 5px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+
+
+
+
+#bottomtable{
+  border-spacing: 10px;
+  width: 100%;
+}
+
+
+.bottomtd{
+  width: 30%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#bottomtd1{
+  background-color: red;
+
+}
+
+#bottomtd2{
+  background-color: green;
+
+}
+
+#bottomtd3{
+  background-color: blue;
+
+}
+
+@keyframes fadein{
+  from { opacity: 0; }
+  to {opacity: 1; }
+
+}
+
+
+html{
+  animation: fadein 3s;
+}
+
+#linkedin{
+  margin-right: 10px;
+}

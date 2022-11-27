@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweł Bieńkowski</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <body>
+
+
+      <div class="header">
+        <div class="hamburger">
+          Im a burger
+        </div>
+        
+        <div class="navbar col-6">
+          <ul>
+            <li class="contact"><a href="#">Contact</a></li>
+            <li class="myprojects"><a href="#">My projects</a></li>
+            <li class="myskills"><a href="#">My skills</a></li>
+            <li class="homepage"><a href="#">Homepage</a></li>
+          </ul>
+        </div>
+        <div class="gitlin col-6">
+          <a href=""><img src="linkedin.png" id="linkedin"></a>
+          <a href="#"><img src="github.png" id="github"></a>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row">
+        <div class="firstpagetext col-12">
+          <h1>Welcome to my portfolio!</h1>
+          <p>My name's Paweł Bieńkowski 
+            and i'm really excited to invite you to journey in my web development world!</p>
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="enter col-12">
+          <h1>Let's start, check programming languages I'm familiar with by clicking on my avatar:</h1>
+          <button type="button" name="enter" id="enter"><img src="avatar.png" alt=""></button>
+        </div>
+      </div>
+
+     
+        
+        
+
+      <div class="row">
+        <div class="col-12 intersection"></div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="secondpagetext col-12">
+          <p>Click on icons to proceed:</p>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="techbuttons col-12">
+          <ul>
+            <li class="techhtml"><img src="html.png" id="htmlicon" class="innertechbuttons"><p class="htmlp">I'm using HTML to create basic layout of website to improve way it looks using other technologies</p><p class="htmlp">Click icon again to go back.</p></li>
+            <li class="techcss"><img src="css.png" id="cssicon" class="innertechbuttons"><p class="cssp">I'm using CSS to modify the way my sites look, both in static and dynamic way.</p><p class="cssp">Click icon again to go back.</p></li>
+            <li class="techjs"><img src="javascript.png" id="jsicon" class="innertechbuttons"><p class="jsp">I'm using JavaScript for my sites animations.</p><p class="jsp">Click icon again to go back.</p></li>
+            <li class="techpython"><img src="python.png" id="pythonicon" class="innertechbuttons"><p class="pythonp">I'm using Python for my sites back-end side, mostly with Django, popular framework.</p><p class="pythonp">Click icon again to go back.</p></li>
+          </ul>
+        </div>
+      </div>
+        
+      
+      <div class="row">
+        <div class="secondenter col-12">
+          <h1>Click avatar again to continue:</h1>
+          <button type="button" name="enter" id="enter" onclick="scrollDown()">
+            <img src="avatar.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 intersection"></div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="thirdpagetext col-12">
+          <h1>Here you can find my projects:</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <ul class="projects col-12">
+          <li class="col-3">E-Commerce Project<br>Coming soon!</li>
+          <li class="col-3">Formal mail creator<br>Coming soon!</li>
+          <li class="col-3">ToDo app<br>Coming soon!</li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="thirdenter col-12">
+          <h1>One last avatar click to reach contact form!</h1>
+          <button type="button" name="enter" id="enter" onclick="scrollDown()">
+            <img src="avatar.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 intersection"></div>
+
+      </div>
+    
+
+
+      <div class="row">
+        <form action="" class="contactform col-8">
+          <input type="text" placeholder="Name" class="col-8">
+          <input type="text" placeholder="Company" class="col-8">
+          <input type="text" placeholder="E-Mail" class="col-8">
+          <textarea name="Message" id="" cols="30" rows="10" placeholder="Message" class="col-8"></textarea>
+          <input type="submit" placeholder="Send Message" value="Send Message" class="col-8">
+        </form>
+        <div class="fourthpagetext col-4"></div>
+          <p>You can also contact me directly via e-mail:</p>
+          <p>pawelbi1990@gmail.com</p>
+          <p>Or with Linkedin =></p>
+      </div>
+
+
+
+
+
+
+
+      <!-- <nav id="main-menu">
+        <ul>
+          <li class="homepage"><a href="#">Homepage</a></li>
+          <li class="myskills"><a href="#">My skills</a></li>
+          <li class="myprojects"><a href="#">My projects</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+          <li><a href=""><img class="linkedinside" src="linkedin.png" id="linkedin"></a></li>
+          <li><a href="#"><img class="githubside" src="github.png" id="github"></a></li>   
+        </ul>
+      </nav> -->
+      
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li class="homepage"><a href="#">Homepage</a></li>
+            <li class="myskills"><a href="#">My skills</a></li>
+            <li class="myprojects"><a href="#">My projects</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+            <li>
+              <a href=""><img class="linkedinside" src="linkedin.png" id="linkedin"></a>
+              <a href="#"><img class="githubside" src="github.png" id="github"></a>
+            </li>            
+          </ul>
+        </nav>
+      </label>
+      
+      <div class="overlay"></div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
